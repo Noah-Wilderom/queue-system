@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+  logger-service:
+    build:
+      context: ./logger-service
+      dockerfile: ./Dockerfile
+    restart: unless-stopped
+    deploy:
+      mode: replicated
+      replicas: 1
+    environment:
+      MONGO_USERNAME: admin
+      MONGO_PASSWORD: password
+
+  mongo:
+    image: 'mongo:4.2.16-bionic'
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: logs
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password
+    volumes:
+      - './db-data/mongodb/:/data/db'
