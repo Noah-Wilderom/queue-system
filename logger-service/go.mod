@@ -3,6 +3,7 @@ module github.com/Noah-Wilderom/queue-system/logger-service
 go 1.21.0
 
 require (
+	github.com/Noah-Wilderom/queue-system/shared-grpc v0.0.0-20230923145034-8ccf2ae0e46e // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/golang/snappy v0.0.1 // indirect
 	github.com/klauspost/compress v1.13.6 // indirect

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/Noah-Wilderom/queue-system/logger-service/data"
-	"github.com/Noah-Wilderom/queue-system/shared_grpc/logs"
+	"github.com/Noah-Wilderom/queue-system/shared-grpc/logs"
 	"google.golang.org/grpc"
 	"log"
 	"net"

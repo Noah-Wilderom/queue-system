@@ -1,3 +1,5 @@
+github.com/Noah-Wilderom/queue-system/shared-grpc v0.0.0-20230923145034-8ccf2ae0e46e h1:5cteBsL9Z8CjKxZ+WwJ2+lGCAPcWu5TvU5PXCUunL40=
+github.com/Noah-Wilderom/queue-system/shared-grpc v0.0.0-20230923145034-8ccf2ae0e46e/go.mod h1:FVkLBxNaV/sQhbUGFcsN3Fm21wkgrJBfQCKRYss0rxg=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/go-chi/chi/v5 v5.0.10 h1:rLz5avzKpjqxrYwXNfmjkrYYXOyLJd37pz53UFHC6vk=
 github.com/go-chi/chi/v5 v5.0.10/go.mod h1:DslCQbL2OYiznFReuXYUmQ2hGd1aDpCnlMNITLSKoi8=
